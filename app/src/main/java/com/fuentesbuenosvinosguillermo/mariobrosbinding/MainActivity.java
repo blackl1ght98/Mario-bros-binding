@@ -207,8 +207,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         if (id == R.id.action_about) {
             new AlertDialog.Builder(this)
-                    .setTitle("Acerca de...")
-                    .setMessage("Aplicación desarrollada por Guillermo Fuentes Buenosvinos. Versión 1.0.")
+                    .setTitle(getString(R.string.Acercade))
+                    .setMessage(getString(R.string.desarrollada))
                     .setPositiveButton(android.R.string.yes, (dialogInterface, i) -> Log.d("Mensaje", "Acción ejecutada con éxito"))
                     .show();
         } else if (id == R.id.settings) {

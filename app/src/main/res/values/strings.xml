@@ -106,4 +106,5 @@
     <string name="bienvenido">Bienvenidos al mundo de Mario</string>
     <string name="lista_de_personajes">Lista de personajes</string>
     <string name="detalles_personaje">Detalles del personaje</string>
+    <string name="desarrollada">Aplicación desarrollada por Guillermo Fuentes Buenosvinos. Versión 1.0.</string>
 </resources>
