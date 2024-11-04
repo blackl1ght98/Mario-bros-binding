@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splahsFragment">
+
+    <fragment
+        android:id="@+id/personajes_list_Fragment"
+        android:name="com.fuentesbuenosvinosguillermo.mariobrosbinding.Fragments.Personajes_list_Fragment"
+        android:label="fragment_personajes_list_"
+        tools:layout="@layout/fragment_personajes_list_" >
+        <action
+            android:id="@+id/action_personajes_list_Fragment_to_personajeDetallesFragment"
+            app:destination="@id/personajeDetallesFragment" />
+        <action
+            android:id="@+id/action_personajes_list_Fragment_to_ajustesFragment"
+            app:destination="@id/ajustesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personajeDetallesFragment"
+        android:name="com.fuentesbuenosvinosguillermo.mariobrosbinding.Fragments.PersonajeDetallesFragment"
+        android:label="PersonajeDetallesFragment" >
+        <action
+            android:id="@+id/action_personajeDetallesFragment_to_personajes_list_Fragment"
+            app:destination="@id/personajes_list_Fragment" />
+        <action
+            android:id="@+id/action_personajeDetallesFragment_to_ajustesFragment"
+            app:destination="@id/ajustesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="com.fuentesbuenosvinosguillermo.mariobrosbinding.Fragments.AjustesFragment"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" >
+        <action
+            android:id="@+id/action_ajustesFragment_to_personajes_list_Fragment"
+            app:destination="@id/personajes_list_Fragment" />
+        <action
+            android:id="@+id/action_ajustesFragment_to_personajeDetallesFragment"
+            app:destination="@id/personajeDetallesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splahsFragment"
+        android:name="com.fuentesbuenosvinosguillermo.mariobrosbinding.Fragments.SplashFragment"
+        android:label="fragment_splahs"
+        tools:layout="@layout/fragment_splahs" />
+</navigation>

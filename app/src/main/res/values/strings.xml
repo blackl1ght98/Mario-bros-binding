@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Super Mario Bros App</string>
+    <string name="nombre_personaje">Nombre Personaje</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="Acercade">Acerca de...</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="pagina_inicio">Home</string>
+    <string name="lista_personajes">Personajes</string>
+    <string name="open_drawer">Abrir menú</string>
+    <string name="close_drawer">Cerrar menú</string>
+    <string name="nombre_app">Super Mario Bros App</string>
+    <string name="pantalla_inicio">Pantalla de inicio</string>
+
+    <string name="mario_name">Mario</string>
+    <string name="mario_skills">Salto, fuerza, habilidades de fuego</string>
+    <string name="mario_description">Mario es un fontanero valiente que lucha para rescatar a la Princesa Peach y derrotar a Bowser.</string>
+    <string name="mario_traits">Amigo leal, optimista, valiente.</string>
+
+    <string name="luigi_name">Luigi</string>
+    <string name="luigi_skills">Salto alto, habilidades de fuego, gran velocidad</string>
+    <string name="luigi_description">Luigi es el hermano de Mario, conocido por ser un poco más alto y por su personalidad más tímida.</string>
+    <string name="luigi_traits">Leal, un poco miedoso, pero valiente cuando es necesario.</string>
+
+    <string name="peach_name">Peach</string>
+    <string name="peach_skills">Uso de paraguas, habilidades mágicas</string>
+    <string name="peach_description">La Princesa Peach es la gobernante del Reino Champiñón y a menudo es secuestrada por Bowser.</string>
+    <string name="peach_traits">Amable, compasiva y fuerte, a menudo toma las riendas de la acción.</string>
+
+    <string name="toad_name">Toad</string>
+    <string name="toad_skills">Agilidad, habilidades de apoyo</string>
+    <string name="toad_description">Toad es un leal sirviente de la Princesa Peach que ayuda a Mario en su aventura.</string>
+    <string name="toad_traits">Enérgico, servicial y valiente, a pesar de su pequeño tamaño.</string>
+
+    <string name="bowser_name">Bowser</string>
+    <string name="bowser_skills">Fuerza bruta, habilidades de fuego, gran resistencia</string>
+    <string name="bowser_description">Bowser es el rey de los Koopas y el principal antagonista de Mario, que constantemente intenta secuestrar a la Princesa Peach.</string>
+    <string name="bowser_traits">Poderoso, persistente, a veces cómico.</string>
+
+
+    <string name="yoshi_name">Yoshi</string>
+    <string name="yoshi_skills">Salto largo, habilidad para comer enemigos, lanzar huevos</string>
+    <string name="yoshi_description">Yoshi es un dinosaurio amigable que ayuda a Mario y sus amigos en sus aventuras.</string>
+    <string name="yoshi_traits">Leal, amistoso, valiente.</string>
+
+
+    <string name="donkey_kong_name">Donkey Kong</string>
+    <string name="donkey_kong_skills">Fuerza increíble, habilidad para lanzar barriles</string>
+    <string name="donkey_kong_description">Donkey Kong es un gorila que alguna vez fue rival de Mario, pero a menudo se le ve como un aliado en las aventuras.</string>
+    <string name="donkey_kong_traits">Fuerte, protector de su familia y su hogar.</string>
+
+
+    <string name="daisy_name">Daisy</string>
+    <string name="daisy_skills">Habilidad para saltar, velocidad, habilidades mágicas</string>
+    <string name="daisy_description">Daisy es la princesa del Reino Sarasaland y amiga cercana de Peach.</string>
+    <string name="daisy_traits">Aventurera, segura de sí misma y alegre.</string>
+
+
+    <string name="wario_name">Wario</string>
+    <string name="wario_skills">Fuerza, ataque físico, habilidad para empujar y aplastar</string>
+    <string name="wario_description">Wario es la contraparte de Mario y suele ser un personaje con motivaciones egoístas.</string>
+    <string name="wario_traits">Avaricioso, fuerte y algo egoísta, pero también cómico.</string>
+
+
+    <string name="waluigi_name">Waluigi</string>
+    <string name="waluigi_skills">Habilidades de agilidad, manipulación y técnicas de engaño</string>
+    <string name="waluigi_description">Waluigi es el compañero y amigo de Wario, conocido por ser un personaje peculiar.</string>
+    <string name="waluigi_traits">Astuto, algo malicioso, pero leal a Wario.</string>
+
+
+    <string name="koopa_troopa_name">Koopa Troopa</string>
+    <string name="koopa_troopa_skills">Defensa con caparazón, habilidad para retraerse</string>
+    <string name="koopa_troopa_description">Koopa Troopa es un miembro del ejército de Bowser, pero a veces ayuda a Mario en sus aventuras.</string>
+    <string name="koopa_troopa_traits">Leal, obediente, a veces amistoso.</string>
+
+
+    <string name="shy_guy_name">Shy Guy</string>
+    <string name="shy_guy_skills">Sigilo, habilidad para esconderse</string>
+    <string name="shy_guy_description">Shy Guy es un enemigo común en el universo Mario, conocido por su apariencia enmascarada y su timidez.</string>
+    <string name="shy_guy_traits">Tímido, misterioso, a veces cómico.</string>
+
+
+    <string name="rosalina_name">Rosalina</string>
+    <string name="rosalina_skills">Magia estelar, teletransportación, habilidades cósmicas</string>
+    <string name="rosalina_description">Rosalina es la protectora del cosmos y madre adoptiva de los Lumas, y a veces ayuda a Mario.</string>
+    <string name="rosalina_traits">Sabia, calmada y protectora.</string>
+
+
+    <string name="toadette_name">Toadette</string>
+    <string name="toadette_skills">Agilidad, habilidades de apoyo, habilidad para transformarse</string>
+    <string name="toadette_description">Toadette es una amiga cercana de Toad y una ayudante de la Princesa Peach.</string>
+    <string name="toadette_traits">Amable, enérgica, determinada.</string>
+
+
+    <string name="bowser_jr_name">Bowser Jr.</string>
+    <string name="bowser_jr_skills">Habilidades de ataque, uso del pincel mágico, velocidad</string>
+    <string name="bowser_jr_description">Bowser Jr. es el hijo de Bowser y aspira a ser como su padre, a menudo causando problemas a Mario.</string>
+    <string name="bowser_jr_traits">Travieso, leal a su padre, ambicioso.</string>
+    <string name="language">Cambiar de Español a Ingles</string>
+    <string name="language_name">Idioma</string>
+    <string name="pnj_name">Nombre</string>
+    <string name="pnj_description">Descripcion</string>
+    <string name="pnj_skills">Habilidades</string>
+    <string name="caracteristicas">caracteristicas</string>
+    <string name="return_list">Volver a la lista</string>
+</resources>
