@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         // Obtiene la lista de personajes desde personajeData
         personajes = personajeData.obtenerPersonajes(this);
         // Se muestra al iniciar la lista de personajes
-        Snackbar.make(findViewById(R.id.main), "Bienvenidos al mundo de Mario", Snackbar.LENGTH_LONG).show();
+        Snackbar.make(findViewById(R.id.main), getString(R.string.bienvenido), Snackbar.LENGTH_LONG).show();
 
         // Añadir personajes al submenú dinámicamente del menú lateral
         NavigationView navigationView = binding.navigationView;

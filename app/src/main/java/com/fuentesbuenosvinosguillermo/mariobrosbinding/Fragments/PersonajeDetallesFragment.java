@@ -79,7 +79,7 @@ public class PersonajeDetallesFragment extends Fragment {
         if (getActivity() != null) {
             // Cambia el título de la barra de acción al título personalizado
             AppCompatActivity activity = (AppCompatActivity) getActivity();
-            activity.getSupportActionBar().setTitle("Detalles del personaje");
+            activity.getSupportActionBar().setTitle(getContext().getString(R.string.detalles_personaje));
         }
     }
 

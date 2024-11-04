@@ -103,4 +103,7 @@
     <string name="pnj_skills">skills</string>
     <string name="caracteristicas">characteristics</string>
     <string name="return_list">Return to the list</string>
+    <string name="bienvenido">Welcome to the world the Mario</string>
+    <string name="lista_de_personajes">List of character</string>
+    <string name="detalles_personaje">Detail of character</string>
 </resources>

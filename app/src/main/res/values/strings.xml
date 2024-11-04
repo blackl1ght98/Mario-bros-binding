@@ -103,4 +103,7 @@
     <string name="pnj_skills">Habilidades</string>
     <string name="caracteristicas">caracteristicas</string>
     <string name="return_list">Volver a la lista</string>
+    <string name="bienvenido">Bienvenidos al mundo de Mario</string>
+    <string name="lista_de_personajes">Lista de personajes</string>
+    <string name="detalles_personaje">Detalles del personaje</string>
 </resources>

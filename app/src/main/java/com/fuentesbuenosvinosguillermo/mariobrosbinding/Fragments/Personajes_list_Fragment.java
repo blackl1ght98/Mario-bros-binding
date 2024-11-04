@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.InfoPersonajes;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.MainActivity;
+import com.fuentesbuenosvinosguillermo.mariobrosbinding.R;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.Recyclerview.AdapterRecyclerView;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.databinding.FragmentPersonajesListBinding;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.datosAplicacion.personajeData;
@@ -64,7 +65,7 @@ public class Personajes_list_Fragment extends Fragment {
     public void onStart() {
         super.onStart();
         if (getActivity() != null) {
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Lista de personajes");
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(getContext().getString(R.string.lista_de_personajes));
             ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         }
     }

@@ -14,6 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.MainActivity;
+import com.fuentesbuenosvinosguillermo.mariobrosbinding.R;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.databinding.FragmentAjustesBinding;
 import java.util.Locale;
 
@@ -66,7 +67,7 @@ public class AjustesFragment extends Fragment {
     public void onStart() {
         super.onStart();
         if (getActivity() != null) {
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Ajustes");
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(getContext().getString(R.string.ajustes));
             ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         }
     }
