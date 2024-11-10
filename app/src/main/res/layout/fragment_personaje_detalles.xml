@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:layout_marginTop="35dp"
+    android:gravity="center"
+    android:orientation="vertical"
 
     android:padding="16dp"
 
-   >
+    >
 
     <ImageView
         android:id="@+id/personajeimg"
@@ -24,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/mario_font"
         android:text="@string/pnj_name"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -32,26 +33,31 @@
         android:id="@+id/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pnj_description"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/mario_font"
+        android:text="@string/pnj_description" />
 
     <TextView
         android:id="@+id/habilidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pnj_skills"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/mario_font"
+        android:text="@string/pnj_skills" />
 
     <TextView
         android:id="@+id/caracteristicas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/mario_font"
 
         android:text="@string/caracteristicas" />
+
     <Button
         android:id="@+id/boton_volver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/mario_font"
         android:text="@string/return_list" />
 
 </LinearLayout>

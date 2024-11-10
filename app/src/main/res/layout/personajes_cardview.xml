@@ -34,12 +34,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+
                 android:gravity="center_vertical"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/nombrepersonaje"
                     android:layout_width="wrap_content"
+                    android:fontFamily="@font/mario_font"
                     android:layout_height="wrap_content"
                     android:text="@string/nombre_personaje"
                     android:textSize="20sp" />

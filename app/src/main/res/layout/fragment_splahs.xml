@@ -28,6 +28,7 @@
         android:layout_height="33dp"
         android:text="@string/nombre_app"
         android:textAlignment="center"
+        android:fontFamily="@font/mario_font"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
