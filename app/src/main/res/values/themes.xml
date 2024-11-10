@@ -2,14 +2,12 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MarioBrosBinding" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Configura el fondo de la pantalla de bienvenida del sistema como transparente -->
-        <item name="android:windowSplashScreenBackground">@android:color/transparent</item>
+
         <item name="android:windowIsTranslucent">true</item>
 
-        <!-- Desactiva el ícono animado de la pantalla de bienvenida -->
-        <item name="android:windowSplashScreenAnimatedIcon">@null</item>
 
-        <!-- Desactiva el fondo del ícono de la pantalla de bienvenida -->
-        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+
+
 
 
     </style>

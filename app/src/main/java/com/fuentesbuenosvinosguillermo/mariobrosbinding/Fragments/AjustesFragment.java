@@ -6,16 +6,20 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.MainActivity;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.R;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.databinding.FragmentAjustesBinding;
+
 import java.util.Locale;
 
 /**
@@ -30,8 +34,8 @@ public class AjustesFragment extends Fragment {
      * Usa View Binding para inflar el layout `fragment_ajustes.xml`, que contiene un Switch y un texto.
      * Carga la preferencia de idioma guardada y configura el Switch para cambiar entre idiomas.
      *
-     * @param inflater Inflador para crear la vista del fragmento.
-     * @param container Contenedor padre al que se adjuntará el fragmento.
+     * @param inflater           Inflador para crear la vista del fragmento.
+     * @param container          Contenedor padre al que se adjuntará el fragmento.
      * @param savedInstanceState Estado previamente guardado del fragmento (si aplica).
      * @return La vista inflada usando View Binding.
      */

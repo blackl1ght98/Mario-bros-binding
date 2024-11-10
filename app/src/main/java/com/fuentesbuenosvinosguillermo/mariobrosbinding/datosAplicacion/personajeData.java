@@ -7,10 +7,11 @@ import com.fuentesbuenosvinosguillermo.mariobrosbinding.R;
 
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * Clase de java que contiene la informacion que se mostrara de los personajes la razon por la que esta separada es para que el codigo no sea
  * extenso y con solo llamar a la clase y al metodo se muestren los personajes
- * */
+ */
 public class personajeData {
     public static ArrayList<InfoPersonajes> obtenerPersonajes(Context context) {
         ArrayList<InfoPersonajes> personajes = new ArrayList<>();

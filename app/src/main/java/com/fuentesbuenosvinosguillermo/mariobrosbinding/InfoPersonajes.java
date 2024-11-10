@@ -4,7 +4,7 @@ package com.fuentesbuenosvinosguillermo.mariobrosbinding;
  * Clase que representa la información de un personaje en la aplicación.
  * Esta clase se utiliza como modelo de datos para almacenar las características de un personaje
  * y se integra con un RecyclerView para mostrar la información de forma estructurada.
- *
+ * <p>
  * Contiene atributos como nombre, descripción, habilidades, características e imagen.
  * Proporciona los métodos necesarios (getters y setters) para acceder y modificar estos atributos.
  */

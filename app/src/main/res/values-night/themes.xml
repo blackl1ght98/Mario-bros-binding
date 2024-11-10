@@ -4,9 +4,16 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
         <!-- Desactiva la pantalla de bienvenida del sistema -->
-        <item name="android:windowSplashScreenBackground">@android:color/transparent</item>
+
+        <!-- Colores de fondo y texto para mejor visibilidad en ambos modos -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorOnBackground</item>
+
+        <!-- Transparencia de la ventana -->
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@null</item>
-        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+
     </style>
 </resources>

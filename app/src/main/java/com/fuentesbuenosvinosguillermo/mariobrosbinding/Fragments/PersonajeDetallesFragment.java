@@ -1,15 +1,18 @@
 package com.fuentesbuenosvinosguillermo.mariobrosbinding.Fragments;
 
 import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.MainActivity;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.R;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.databinding.FragmentPersonajeDetallesBinding;
@@ -24,8 +27,9 @@ public class PersonajeDetallesFragment extends Fragment {
     /**
      * Método onCreateView: Crea y devuelve la vista asociada al fragmento.
      * Aquí, inflamos el layout usando View Binding para acceder a sus elementos directamente.
-     * @param inflater el inflador de layout para crear vistas en el fragmento
-     * @param container el contenedor que contiene la vista del fragmento
+     *
+     * @param inflater           el inflador de layout para crear vistas en el fragmento
+     * @param container          el contenedor que contiene la vista del fragmento
      * @param savedInstanceState el estado guardado previamente, si existe
      * @return la vista raíz inflada
      */
@@ -39,7 +43,8 @@ public class PersonajeDetallesFragment extends Fragment {
     /**
      * Método onViewCreated: Ejecuta lógica adicional después de que la vista ha sido creada.
      * Este método obtiene los datos del personaje pasados como argumentos al fragmento y los muestra en la interfaz.
-     * @param view la vista raíz del fragmento
+     *
+     * @param view               la vista raíz del fragmento
      * @param savedInstanceState el estado guardado previamente, si existe
      */
     @Override

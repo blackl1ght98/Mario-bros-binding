@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    >
-<!--Layout usado para mostrar la informacion del RecyclerView-->
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Layout usado para mostrar la informacion del RecyclerView-->
     <data>
+
         <variable
             name="personages"
             type="com.fuentesbuenosvinosguillermo.mariobrosbinding.InfoPersonajes" />
@@ -11,16 +11,16 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
-        android:fitsSystemWindows="true"
-        android:layout_height="wrap_content">
+        android:fitsSystemWindows="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
             android:fitsSystemWindows="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
             android:padding="10dp">
 
             <ImageView
@@ -41,8 +41,8 @@
                 <TextView
                     android:id="@+id/nombrepersonaje"
                     android:layout_width="wrap_content"
-                    android:fontFamily="@font/mario_font"
                     android:layout_height="wrap_content"
+                    style="@style/TitleText"
                     android:text="@string/nombre_personaje"
                     android:textSize="20sp" />
 

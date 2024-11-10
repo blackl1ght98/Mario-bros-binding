@@ -56,6 +56,7 @@
     <Button
         android:id="@+id/boton_volver"
         android:layout_width="wrap_content"
+        style="@style/AppButton"
         android:layout_height="wrap_content"
         android:fontFamily="@font/mario_font"
         android:text="@string/return_list" />

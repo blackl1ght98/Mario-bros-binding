@@ -1,6 +1,7 @@
 package com.fuentesbuenosvinosguillermo.mariobrosbinding.Recyclerview;
 
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.databinding.PersonajesCardviewBinding;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.InfoPersonajes;
 
@@ -8,7 +9,7 @@ import com.fuentesbuenosvinosguillermo.mariobrosbinding.InfoPersonajes;
  * Clase ViewHolderRecycler que extiende RecyclerView.ViewHolder.
  * Esta clase es necesaria para que un RecyclerView funcione correctamente, ya que es responsable de contener
  * y mostrar los datos de cada elemento en la lista.
- *
+ * <p>
  * Un ViewHolder es un patrón de diseño utilizado para representar cada ítem en el RecyclerView y mostrar
  * sus propiedades en pantalla. Esta clase se utilizará en el Adapter para manejar la lógica de presentación
  * del RecyclerView.

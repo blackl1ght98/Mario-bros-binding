@@ -22,10 +22,12 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.datosAplicacion.personajeData;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
+
 import java.util.List;
 
 /**
@@ -166,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
      * Envía los detalles del personaje al fragmento de detalles.
      *
      * @param personaje Personaje que ha sido seleccionado.
-     * @param view Vista desde la cual se realiza el clic.
+     * @param view      Vista desde la cual se realiza el clic.
      */
     public void personajeCliked(InfoPersonajes personaje, View view) {
         Bundle bundle = new Bundle();

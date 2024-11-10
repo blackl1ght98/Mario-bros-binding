@@ -2,13 +2,16 @@ package com.fuentesbuenosvinosguillermo.mariobrosbinding.Fragments;
 
 import android.os.Bundle;
 import android.os.Handler;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.R;
 
 /**
@@ -23,8 +26,8 @@ public class SplashFragment extends Fragment {
      * Oculta la ActionBar cuando se muestra el fragmento y, después de un retraso,
      * navega al fragmento de lista de personajes.
      *
-     * @param inflater El LayoutInflater usado para inflar el layout del fragmento.
-     * @param container El contenedor en el cual el fragmento es mostrado.
+     * @param inflater           El LayoutInflater usado para inflar el layout del fragmento.
+     * @param container          El contenedor en el cual el fragmento es mostrado.
      * @param savedInstanceState Estado guardado del fragmento, si lo hubiera.
      * @return La vista inflada para el fragmento.
      */

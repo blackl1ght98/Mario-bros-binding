@@ -1,20 +1,24 @@
 package com.fuentesbuenosvinosguillermo.mariobrosbinding.Fragments;
 
 import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.InfoPersonajes;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.MainActivity;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.R;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.Recyclerview.AdapterRecyclerView;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.databinding.FragmentPersonajesListBinding;
 import com.fuentesbuenosvinosguillermo.mariobrosbinding.datosAplicacion.personajeData;
+
 import java.util.ArrayList;
 
 /**
@@ -30,8 +34,8 @@ public class Personajes_list_Fragment extends Fragment {
     /**
      * Crea y devuelve la vista para este fragmento.
      *
-     * @param inflater El LayoutInflater utilizado para inflar el XML del fragmento. El layout es 'fragment_personajes_list_.xml'
-     * @param container El ViewGroup donde se añadirá el fragmento.
+     * @param inflater           El LayoutInflater utilizado para inflar el XML del fragmento. El layout es 'fragment_personajes_list_.xml'
+     * @param container          El ViewGroup donde se añadirá el fragmento.
      * @param savedInstanceState Un Bundle que contiene el estado previamente guardado del fragmento, si existe.
      * @return La vista raíz inflada para el fragmento.
      */
@@ -46,7 +50,7 @@ public class Personajes_list_Fragment extends Fragment {
      * Inicializa la lista de personajes, configura el RecyclerView con un layout vertical
      * y asigna un AdapterRecyclerView con los datos de personajes.
      *
-     * @param view La vista creada.
+     * @param view               La vista creada.
      * @param savedInstanceState Estado previamente guardado del fragmento, si existe.
      */
     @Override

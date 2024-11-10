@@ -8,4 +8,10 @@
     <color name="teal_200">#ff03dac5</color>
     <color name="teal_700">#ff018786</color>
     <color name="greyish_purple">#3B344B</color>
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#000000</color>
+    <color name="colorBackground">#121212</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+
 </resources>
